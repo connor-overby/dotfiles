@@ -1,0 +1,10 @@
+[user]
+	email = coverby@protonmail.com
+	name = Connor Overby
+[core]
+  filemode = false
+  editor = nvim
+[init]
+	defaultBranch = main
+[credential]
+	helper = "!f() { sleep 1; echo \"username=git token=<TOKEN>\"; }; f"
